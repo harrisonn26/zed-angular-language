@@ -2,7 +2,7 @@
 
 (comment) @comment
 
-(attribute_name) @tag.attribute
+(attribute_name) @attribute
 
 ((attribute
   (quoted_attribute_value) @string)
@@ -19,9 +19,10 @@
 [
   "<"
   ">"
+  "<!"
   "</"
   "/>"
-] @tag.delimiter
+] @punctuation.bracket.html
 
 "=" @operator
 

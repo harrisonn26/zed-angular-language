@@ -1,4 +1,4 @@
-name = "Angular Template"
+name = "HTML"
 grammar = "angular"
 path_suffixes = [".html"]
 block_comment = { start = "<!-- ", prefix = "", end = " -->", tab_size = 0 }
