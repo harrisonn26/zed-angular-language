@@ -1,10 +1,10 @@
-id = "harrisons-angular"
-name = "Angular (test)"
+id = "angular"
+name = "Angular"
 version = "0.0.1"
 schema_version = 1
 authors = ["Harrison Norris <harrisonnorris26@gmail.com>"]
 description = "Angular extension"
-repository = "https://github.com/harrisonn26/angular-extension"
+repository = "https://github.com/harrisonn26/zed-angular-language"
 
 [grammars.angular]
 repository = "https://github.com/dlvandenberg/tree-sitter-angular"
@@ -13,11 +13,8 @@ rev= "d2f388435b062fdd6b3c386db6c23db2da67e578"
 
 [language_servers.angularls]
 name = "Angular Language Server"
-languages = ["Angular Template", "HTML", "TypeScript"]
+languages = ["HTML", "TypeScript"]
 
 [language_servers.angularls.language_ids]
 "HTML" = "html"
-"Angular Template" = "html"
 "TypeScript" = "typescript"
-
-[language_servers.vscode-html-language-server]
