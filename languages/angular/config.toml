@@ -1,0 +1,16 @@
+name = "Angular Template"
+grammar = "angular"
+path_suffixes = [".html"]
+block_comment = { start = "<!-- ", prefix = "", end = " -->", tab_size = 0 }
+wrap_characters = { start_prefix = "<", start_suffix = ">", end_prefix = "</", end_suffix = ">" }
+tab_size = 4
+hard_tabs = false
+prettier_parser_name = "angular"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["comment", "string"] },
+    { start = "<", end = ">", close = false, newline = true, not_in = ["comment", "string"] },
+    { start = "!--", end = " --", close = true, newline = false, not_in = ["comment", "string"] },
+]
