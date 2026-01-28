@@ -19,16 +19,17 @@ Differences:
 
 ## Installation
 
-1. Ununstall the official Angular extension
+1. Uninstall the official Angular extension
 2. Ensure HTML extension is installed
 3. Clone this repository
-4. Install using 'Install Dev Extension' in the Zed extensions pane.
+4. Install using 'Install Dev Extension' in the Zed extensions pane
 5. identify your extension install location (~/Library/Application Support/Zed/extensions/installed on MacOS)
 6. Run these commands (update paths as needed):
 
 ```
 cp -r ~/Library/Application\ Support/Zed/extensions/installed/angular/languages/html ~/Library/Application\ Support/Zed/extensions/installed/html/languages/
-
+```
+```
 cp ~/Library/Application\ Support/Zed/extensions/installed/angular/grammars/angular.wasm ~/Library/Application\ Support/Zed/extensions/installed/html/grammars/angular.wasm
 ```
 7. Restart Zed
